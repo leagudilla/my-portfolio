@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Lea</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">LA</span>
+                <span class="logo-dot">.</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="section home-section">
+        <div class="container">
+            <div class="home-content">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <div class="image-wrapper">
+                            <img src="images/lea.webp" alt="Lea Marie Agudilla" class="profile-photo" loading="lazy">
+                            <div class="image-frame"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-info">
+                        <h3 class="intro">Hello, I'm</h3>
+                        <h1 class="name">LEA MARIE AGUDILLA</h1>
+                        <h2 class="title">QA & Frontend Developer</h2>
+                        <p class="summary">Computer Engineering graduate with experience in Manual Testing and Frontend Development. Seeking opportunities in QA and Frontend roles.</p>
+                        <div class="home-buttons">
+                            <a href="cv/LEA-MARIE-AGUDILLA-RÉSUMÉ.pdf" class="btn download-cv" download>
+                                <i class="fas fa-download"></i> Download CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A Computer Engineering graduate with hands-on experience in both building front-end interfaces and testing web quality. I'm passionate about building user interfaces and testing them.</p>
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="edu-item">
+                            <div class="edu-content">
+                                <h4>Bachelor of Science in Computer Engineering</h4>
+                                <p class="institution">Southern Luzon State University – Lucban, Quezon</p>
+                                <p class="period">2021 - 2025 (Graduated)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="experience-card">
+                    <div class="card-header">
+                        <div class="job-title">
+                            <h3>Web QA & Front-End Intern</h3>
+                            <h4>City Government of Tayabas, Quezon</h4>
+                        </div>
+                        <div class="job-date">
+                            <span class="date-badge">July - Aug 2024</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="responsibilities-grid">
+                            <div class="responsibility-item">
+                                <div class="res-content">
+                                    <h5>UI/UX Design</h5>
+                                    <p>Designed user interfaces of GAD Corner page and wireframes using Figma</p>
+                                </div>
+                            </div>
+                            
+                            <div class="responsibility-item">
+                                <div class="res-content">
+                                    <h5>Manual Testing</h5>
+                                    <p>Performed manual testing of government websites to identify functional, UI/UX, and layout defects</p>
+                                </div>
+                            </div>
+                            
+                            <div class="responsibility-item">
+                                <div class="res-content">
+                                    <h5>Test Case Design</h5>
+                                    <p>Designed and executed test cases for website pages and core features</p>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="responsibility-item">
+                                <div class="res-content">
+                                    <h5>Team Collaboration</h5>
+                                    <p>Collaborated with the development team to verify fixes and ensure overall website quality</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-intro">
+                <p>Here are some of the projects I've worked on during my studies</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/prototype2.webp');">
+                        <div class="project-overlay"></div>
+                        <div class="project-header">
+                            <h3>Automated Baby Monitoring System for Cradle</h3>
+                            <p class="project-type">Thesis Project</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">Developed a baby monitoring system for cradle that detects baby movement and triggers automatic swinging with lullaby playback.</p>
+                        <div class="tech-used">
+                            <h4>Technologies Used:</h4>
+                            <div class="tech-tags">
+                                <span>Raspberry Pi</span>
+                                <span>Raspberry Pi Camera</span>
+                                <span>Python</span>
+                                <span>Java</span>
+                                <span>Firebase</span>
+                                <span>YOLOv8</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="btn project-btn view-project-btn" data-project="baby-monitor">
+                            <i class="fas fa-images"></i> View Project
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/lutaya.webp');">
+                        <div class="project-overlay"></div>
+                        <div class="project-header">
+                            <h3>Tayabas City Information Website</h3>
+                            <p class="project-type">Web Development</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">Developed a responsive website showcasing Tayabas City's governance information, barangay listings with population statistics, cultural heritage sites, and tourism destinations.</p>
+                        <div class="tech-used">
+                            <h4>Technologies Used:</h4>
+                            <div class="tech-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>MySQL</span>
+                                <span>Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://tayabas-informational-website.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn project-btn">
+                            <i class="fas fa-external-link-alt"></i> Visit Website
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/kiddielearn.webp');">
+                        <div class="project-overlay"></div>
+                        <div class="project-header">
+                            <h3>KiddieLearn</h3>
+                            <p class="project-type">Educational App</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">Developed an interactive application to teach children numbers, letters, and colors through engaging games and activities.</p>
+                        <div class="tech-used">
+                            <h4>Technologies Used:</h4>
+                            <div class="tech-tags">
+                                <span>Java</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="btn project-btn view-project-btn" data-project="kids-education">
+                            <i class="fas fa-images"></i> View Project
+                        </button>
+                        <a href="https://www.youtube.com/watch?v=6Cb4RtBWIaU" target="_blank" rel="noopener noreferrer" class="btn project-btn">
+                            <i class="fab fa-youtube"></i> View Demo
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/lutaya.webp');">
+                        <div class="project-overlay"></div>
+                        <div class="project-header">
+                            <h3>Lutaya</h3>
+                            <p class="project-type">Web Development</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">Built a fully responsive e-commerce website with product catalog, shopping cart, and checkout functionality.</p>
+                        <div class="tech-used">
+                            <h4>Technologies Used:</h4>
+                            <div class="tech-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://leagudilla.github.io/lutaya/" target="_blank" rel="noopener noreferrer" class="btn project-btn">
+                            <i class="fas fa-external-link-alt"></i> Visit Website
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span class="skill-name">HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span class="skill-name">CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span class="skill-name">Java</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Manual Testing</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fas fa-clipboard-check"></i>
+                            <span class="skill-name">Manual Testing</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-tasks"></i>
+                            <span class="skill-name">Test Case Design</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-bug"></i>
+                            <span class="skill-name">Bug Tracking</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>UI/UX Design</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fab fa-figma"></i>
+                            <span class="skill-name">Figma</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-pencil-ruler"></i>
+                            <span class="skill-name">Wireframing</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-canva"></i>
+                            <span class="skill-name">Canva</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span class="skill-name">MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire"></i>
+                            <span class="skill-name">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-file-alt"></i>
+                        <h3>Microsoft Office</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fas fa-file-word"></i>
+                            <span class="skill-name">MS Word</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-file-excel"></i>
+                            <span class="skill-name">MS Excel</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-file-powerpoint"></i>
+                            <span class="skill-name">MS PowerPoint</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p id="email-display">loading...</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p id="phone-display">loading...</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="#" target="_blank" id="linkedin-link">linkedin.com/in/lea-agudilla</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <a href="#" target="_blank" id="github-link">github.com/lea-agudilla</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm" action="https://formsubmit.co/el/diravu" method="POST">
+                        <input type="hidden" name="_subject" value="New Message from Portfolio Website">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="thank-you.html">
+                        <input type="hidden" name="_autoresponse" value="Thank you for contacting Lea Marie Agudilla! I'll review your message and get back to you.">
+                        
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn submit-btn" id="submit-btn">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2025</span> Lea Marie A. Agudilla. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="imageGalleryModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="gallery-container" id="galleryContainer">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
